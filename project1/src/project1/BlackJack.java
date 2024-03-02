@@ -98,6 +98,7 @@ public class BlackJack {
 			System.out.println("Player loses... Dealer got 21.");
 			return true;
 		}
+		System.out.println("Player loses... Dealer is above you.");
 		return false;
 	}
 	
